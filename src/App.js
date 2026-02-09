@@ -5,6 +5,7 @@ import Hello from './Hello';
 import Length from './Length.js';
 import Range from './Range.js';
 import Form from './Form.js';
+import Count from './Count.js';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Length />
       <Range />
       <Form />
+      <Count />
     </div>
   );
 }
