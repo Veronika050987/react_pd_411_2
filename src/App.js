@@ -3,6 +3,8 @@ import './App.css';
 import Header from './Header';
 import Hello from './Hello';
 import Length from './Length.js';
+import Range from './Range.js';
+import Form from './Form.js';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Header />
       <Hello />
       <Length />
+      <Range />
+      <Form />
     </div>
   );
 }
